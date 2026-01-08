@@ -1,0 +1,12 @@
+L = []
+for _ in range(int(input())):
+    a, b, c = map(int,input().split())
+    mx = b
+    for i in range(a):
+        mxx = (b + i*c)%(a)
+        if mxx > mx:
+            mx = mxx
+    L.append(mx)
+for ch in L:
+    print(ch)
+        
