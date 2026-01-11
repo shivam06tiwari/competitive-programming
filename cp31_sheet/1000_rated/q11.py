@@ -15,7 +15,6 @@ while n>=i:
         n-=i
         a.pop()
         z-=1
-        print(j)
     i += 1
 print(t)
     
