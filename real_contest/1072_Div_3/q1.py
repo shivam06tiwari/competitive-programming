@@ -6,4 +6,7 @@ for _ in range(int(input())):
         if n%2 == 0:
             print(0)
         else:
-            print(1)
+            if n == 3:
+                print(3)
+            else:
+                print(1)
