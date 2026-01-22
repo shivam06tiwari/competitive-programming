@@ -3,7 +3,8 @@ for _ in range(int(input())):
     while True:
         z = str(n)
         for ch in z:
-            if int(ch) != 1 and int(ch) != 0 and n%int(ch) != 0:
+            d = int(ch)
+            if d > 1 and n%d != 0:
                 break
         else:
             print(n)

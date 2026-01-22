@@ -34,4 +34,4 @@ for _ in range(int(input())):
         else:
             l = m+1
     b = ans
-    print(1,a,b,a*b)
+    print(a*b)
