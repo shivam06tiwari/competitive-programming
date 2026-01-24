@@ -8,11 +8,9 @@ for i in range(int(input())):
         w = 0
         for i in range(n):
             w += max(0,m-a[i])
-        if w == x:
-            break
-        elif w < x:
+        if w <= x:
             l = m+1
         else:
             r = m-1
-    print(m)
+    print(r)
         

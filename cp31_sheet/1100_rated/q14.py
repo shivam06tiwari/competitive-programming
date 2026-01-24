@@ -17,7 +17,6 @@ for _ in range(int(input())):
     if c != 1:
         ans.append([c,l])
     ans.sort()
-    print(ans)
     for ch in ans:
         r = ch[1] - ch[0]
         l = ch[1]

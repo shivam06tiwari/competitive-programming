@@ -8,7 +8,7 @@ for _ in range(int(input())):
             l.append(i)
         i+=1
     mx = 0
-    mn = 1e9
+    mn = float("inf")
     dif = 0
     c = 0
     for i in range(len(l)):
@@ -19,11 +19,11 @@ for _ in range(int(input())):
             mn = min(mn,c)
         dif = max(mx-mn,dif)
         mx = 0
-        mn = 1e9+1
+        mn = float("inf")
     x = max(a)
     y = min(a)
     if x-y == 0:
         print(0)
     else:
         dif = max(x-y,dif)
-        print(int(dif))
+        print(dif)
